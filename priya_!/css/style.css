@@ -1,0 +1,183 @@
+body {
+    background-color: #f5f5f5;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 730px; */
+} 
+.greeting-wrapper {
+    width: 396.8503937px; /* 396.85 pixels width */
+    height: 559.37007874px; /* 559.37 pixels height */
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.greeting-img  {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  
+}
+.greeting-img-2{
+  position: absolute;
+    width: 100%;
+    height: 104%;
+    top: 103mm;
+}
+
+.greeting-content {
+  text-align: center;
+    flex-grow: 1;
+    border: 5px solid #808080cc;
+    position: relative;
+    top: 0mm;
+    margin-bottom: 0px;
+    margin-top: -127px;
+    width: 387px;
+    height: 34mm;
+}
+.greeting-recipient-name {
+  text-align: center;
+  font-size: 31px;
+  color: #7c00ff;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 49mm;
+  left: 41mm;
+  width: 20mm;
+}
+.greeting-heading {
+  text-align: center;
+    font-size: 14.2px;
+    color: grey;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    top: 37mm;
+    left: 37mm;
+}
+.greeting-sub-heading {
+  font-size: 14px;
+  color: #696969;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 42mm;
+  left: 33mm;
+  font-weight: bold;
+}
+
+.greeting-pre-message{
+  font-size: 12.4px;
+    color: #333333;
+    margin-bottom: -3px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    top: 97mm;
+    left: 31mm;
+}
+.greeting-message{
+  font-style: italic;
+    color: #333333;
+    text-align: center;
+    position: absolute;
+    left: 25mm;
+    top: 81mm;
+} 
+.greeting-closing-message{
+  font-size: 12.4px;
+    color: #333333;
+    margin-bottom: -3px;
+    line-height: 1.5;
+    text-align: center;
+    top: 106mm;
+    position: absolute;
+    left: 33mm;
+}
+.greeting-personal-note{
+  font-size: 14.4px;
+    color: #333333;
+    margin-bottom: -3px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    top: 115mm;
+    left: 30mm;
+
+}
+.greeting-date{
+  font-size: 12.4px;
+    color: #333333;
+    margin-bottom: -3px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    top: 93mm;
+    left: 38mm;
+}
+.greeting-occasion{
+  left: 21mm;
+    font-size: 30.4px;
+    color: #333333;
+    margin-bottom: -3px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    top: 23mm;
+
+}
+.greeting-special-instructions {
+  margin-top: 7px;
+  font-size: 8.6px;
+  color: #333333;;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  left: 41mm;
+  top: 119mm;
+  width: 24mm;
+
+}
+.greeting-message {
+  font-style: italic;
+  color: #333333;
+  text-align: center;
+}
+.greeting-sender-name {
+  font-size: 12.4px;
+  color: #333333;
+    margin-top: 11px;
+    text-align: center;
+    position: absolute;
+    top: 107mm;
+    left: 49mm;
+}
+.greeting-special-instructions {
+  margin-top: 7px;
+  font-size: 13.6px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  left: 38mm;
+  top: 118mm;
+  width: 37mm;
+}
+/* Optional: Add a background pattern or subtle texture */
+.greeting-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
