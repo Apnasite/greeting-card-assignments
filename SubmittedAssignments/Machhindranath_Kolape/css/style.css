@@ -1,0 +1,192 @@
+@font-face {
+  font-family: Mr-Mrs;
+  src: url(../Font/Rye-Regular.ttf);
+}
+body {
+    background-color: black;
+} 
+
+.greeting-wrapper {
+    width: 396.85px;
+    height: 559.37px; 
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.greeting-background {
+  margin: 15px;
+  height: 529.37px;
+  background-color: #E3E3E3;
+}
+
+.svg-top-left {
+  position: relative;
+  top: -1px;
+  left: -5px;
+}
+
+.top-left-corner {
+  rotate: 270deg;
+  width: 121px;
+  height: 121px;
+}
+
+.svg-top-right {
+  position: relative;
+  top:-131px;
+  left: 244px;
+}
+
+.top-right-corner {
+  width: 121px;
+  height: 121px;
+}
+
+.svg-bottom-right {
+  position: relative;
+  right: -248px;
+  bottom: -162px;
+}
+
+.bottom-right-corner {
+  rotate: 90deg;
+  width: 121px;
+  height: 121px;
+}
+
+.svg-bottom-left {
+  position: relative;
+  bottom: -44px;
+  left: 0px;
+}
+
+.bottom-left-corner {
+  rotate: 180deg;
+  width: 121px;
+  height: 121px;
+}
+
+/* Card-Content */
+
+.greeting-content { 
+  position: absolute;
+  top: 39px;
+  margin: 39px;
+  text-align: center;
+}
+
+.greeting-heading {
+  margin-top: -12px;
+  text-align: center;
+  font-size: 15.2px;
+  color: #e55757;
+}
+
+.greeting-image {
+    position : absolute;
+    top: -37px;
+}
+
+.added-img {
+  width: 323px;
+  height: 225px;
+  opacity: 0.5;
+}
+
+.greeting-recipient-name {
+  position: absolute;
+  top: 9px;
+  margin: 66px;
+  text-align: center;
+  font-family: 'Mr-Mrs';
+  font-size: 26px;
+  color: #6e4961;
+  font-style:oblique
+}
+
+.greeting-sub-heading { 
+  position: relative;
+  top: -16px;
+  font-size: 16px;
+  color: #c98045;
+  margin-top: 161px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.greeting-special-instructions {
+  position: relative;
+  top: 34px;
+  font-size: 14.4px;
+  color: #333333;
+  margin-bottom: -3px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.greeting-pre-message {
+  margin-top: 8px;
+  color: #ff69b4;
+}
+
+.greeting-message {
+  position: relative;
+  top: 10px;
+  font-style: italic;
+  color: #ff69b4;
+  text-align: center;
+}
+
+.greeting-closing-message {
+  position: relative;
+  top: 19px;
+  color: #52c9d9;
+  margin-top: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.greeting-sender-name {
+  position: relative;
+  top: 22px;
+  font-size: 26px;
+  color: #52c9d9;
+  font-weight: bold;
+  text-align: center;
+}
+
+.greeting-personal-note {
+  position: relative;
+  top: 36px;
+  font-size: 14px;
+  color: #7fc285;
+  text-align: center;
+}
+
+.greeting-date {
+  position: relative;
+  top: 39px;
+  font-size: 14px;
+  color: #685ba7;
+  text-align: center;
+  font-style: bold;
+}
+
+.greeting-occasion {
+  position: relative;
+  top: 39px;
+  font-size: 14px;
+  color: #685ba7;
+  text-align: center;
+  font-style: bold;
+}
+
+.greeting-special-instructions { 
+  position: relative;
+  top: 34px;
+    margin-top: 7px;
+    font-size: 13.6px;
+    color: rgb(232, 93, 93);
+    font-weight: bold;
+    text-align: center;
+}
