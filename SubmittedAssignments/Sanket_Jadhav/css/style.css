@@ -32,10 +32,10 @@ body {
 .greeting-content {
   text-align: center;
   flex-grow: 1;
-  top: 67mm;
-  right: 98mm;
+  top: -106mm;
+  right: 0mm;
   z-index: 2;
-  position: absolute;
+  position: relative;
 }
 .greeting-recipient-name {
   text-align: center;
