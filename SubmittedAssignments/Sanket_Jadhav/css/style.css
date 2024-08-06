@@ -17,20 +17,36 @@ body {
     flex-direction: column;
 }
 .greeting-img img {
-  width: 425px;
-  height: 177px;
+  width: 410px;
+  height: 557px;
+  top: 1mm;
+  position: relative;
+}
+.heart{
+  position: relative;
+    height: 0mm;
+    top: -29mm;
+    font-size: 20mm;
+    left: 2mm;
 }
 .greeting-content {
-    text-align: center;
-    flex-grow: 1;
+  text-align: center;
+  flex-grow: 1;
+  top: 67mm;
+  right: 98mm;
+  z-index: 2;
+  position: absolute;
 }
 .greeting-recipient-name {
   text-align: center;
-    font-size: 2.5rem;
-    color: #c71585;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-family: 'Alex Brush';
+  font-size: 2.5rem;
+  color: #c71585;
+  margin-bottom: 0px;
+  top: -26mm;
+  position: relative;
+  font-weight: bolder;
+  font-family: 'Alex Brush';
+
 }
 .greeting-heading {
   text-align: center;
@@ -62,7 +78,7 @@ body {
 }
 .greeting-message {
   font-style: italic;
-  color: #ff69b4;
+  color: #ff0481;
   text-align: center;
 }
 .greeting-sender-name {
