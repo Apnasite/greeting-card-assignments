@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Fill Text with Movable Background</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .text-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .moving-bg-text {
+            font-size: 5em;
+            font-weight: bold;
+            color: transparent;
+            background: radial-gradient(circle, #00ffe5, #ffffff);
+            background-size: 200%;
+            animation: bgMove2 2s linear infinite;
+            background-clip: text;
+        }
+
+        @keyframes bgMove2 {
+            from {
+                background-position: center;
+            }
+            to {
+                background-position: -200%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <h1 class="moving-bg-text">No Fill Text</h1>
+    </div>
+</body>
+</html>
