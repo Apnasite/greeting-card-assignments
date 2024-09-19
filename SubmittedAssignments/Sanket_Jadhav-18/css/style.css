@@ -1,0 +1,136 @@
+body {
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+} 
+.greeting-wrapper {
+    width: 396.8503937px; /* 396.85 pixels width */
+    height: 559.37007874px; /* 559.37 pixels height */
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.greeting-img img {
+  width: 425px;
+  height: 177px;
+}
+.greeting-content {
+  position: relative;
+  top: -4mm;
+  text-align: center;
+  flex-grow: 1;
+}
+.heart{
+  position:absolute;
+  font-size: 75.590px;
+  top:10mm;
+  right:10mm;
+}
+.greeting-recipient-name {
+  right: -1mm;
+  top: -4mm;
+  text-align: center;
+  font-size: 40px;
+  color: #c71585;
+  margin-bottom: -6px;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Alex Brush';
+}
+.greeting-heading {
+  position: relative;
+  right: 0mm;
+  top: -1mm;
+  text-align: center;
+  font-size: 19.2px;
+  color: #8b0000;
+  margin-bottom: 1.322mm;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+.greeting-sub-heading {
+  position: relative;
+  right: 0mm;
+  top: 3mm;
+  font-size: 16px;
+  color: #696969;
+  margin-bottom: 5.2916mm;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+.greeting-pre-message{
+  position: relative;
+  top: 1mm;
+  right: -1mm;
+}
+.greeting-message{
+  position: relative;
+  top: 3mm;
+  right: -1mm;
+}
+.greeting-closing-message{
+  position: relative;
+  top: 6mm;
+  right: -1mm;
+} 
+.greeting-personal-note{
+  position: relative;
+  top: 2mm;
+  right: -1mm;
+}
+.greeting-date{
+  position: relative;
+  top: 3mm;
+  right: -1mm;
+}
+.greeting-occasion{
+  position: relative;
+  top: 5mm;
+  right: -1mm;
+}
+.greeting-special-instructions {
+  position: relative;
+  right: -1mm;
+  top: 5mm;
+  font-size: 14.4px;
+  color: #333333;
+  margin-bottom: -0.79375mm;
+  line-height: 1.5;
+  text-align: center;
+}
+.greeting-message {
+  font-style: italic;
+  color: #ff69b4;
+  text-align: center;
+}
+.greeting-sender-name {
+  font-size: 16px;
+  color: #c71585;
+  margin-top: 7.9375mm;
+  font-weight: bold;
+  text-align: center;
+}
+.greeting-special-instructions {
+  margin-top: 1.852mm;
+    font-size: 13.6px;
+    color: #8b0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.greeting-wrapper::before {
+  position:absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
