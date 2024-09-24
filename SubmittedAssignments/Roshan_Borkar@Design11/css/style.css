@@ -1,0 +1,108 @@
+.greeting-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  border-radius: 20px;
+
+}
+.greetingImg{
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  height: 1800px;
+  font-family: Arial, sans-serif;
+  background: url('../img/image.png') no-repeat;
+  background-size: cover;
+  background-color:rgb(245, 245, 200);
+}
+
+.greeting-content {
+  position: absolute;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+  color: green;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 280px;
+}
+
+.greeting-recipient-name {
+  font-size: 3em;
+  font-family: 'Alex Brush', cursive;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.greeting-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffdf00;
+}
+
+.greeting-pre-message {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.greeting-message {
+  font-size: 35px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.gretting-sub-heading {
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 20px;
+  font-style: italic;
+  color:peru;
+} 
+.greeting-closing-message, 
+.greeting-personal-note,
+.greeting-sender-name,
+.greeting-date,
+.greeting-occasion{
+  color:navy;
+  font-size: 35px;
+
+}
+.greeting-special-instructions{
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color:orangered;
+  margin-top: 10px;
+}
+h1{
+  color: black;
+  font-size: 60px;
+  width: 70%;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color:whitesmoke;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.circle {
+  width: 250px;      
+  height: 250px;      
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  overflow: hidden; 
+margin-left: 350px;
+margin-top: 100px;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center; 
+  
+  
+}
