@@ -25,9 +25,9 @@ body {
 .heart{
   position: relative;
     height: 0mm;
-    top: -29mm;
+    top: -121mm;
     font-size: 20mm;
-    left: 2mm;
+    left: 40mm;
 }
 .greeting-content {
   text-align: center;
