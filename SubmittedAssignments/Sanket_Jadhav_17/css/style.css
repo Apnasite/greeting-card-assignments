@@ -19,21 +19,21 @@ body {
 .greeting-img img {
   width: 410px;
   height: 557px;
-  top: 1mm;
+  top: 3.779px;
   position: relative;
 }
 .heart{
   position: relative;
-    height: 0mm;
-    top: -121mm;
-    font-size: 20mm;
-    left: 40mm;
+    height: 0px;
+    top: -457.322px;
+    font-size: 75.590px;
+    left: 151.181px;
 }
 .greeting-content {
   text-align: center;
   flex-grow: 1;
-  top: -106mm;
-  right: 0mm;
+  top: -400.629px;
+  right: 0px;
   z-index: 2;
   position: relative;
 }
@@ -41,8 +41,8 @@ body {
   text-align: center;
   font-size: 40px;
   color: #c71585;
-  margin-bottom: 0mm;
-  top: -26mm;
+  margin-bottom: 0px;
+  top: -98.267px;
   position: relative;
   font-weight: bolder;
   font-family: 'Alex Brush';
@@ -52,14 +52,14 @@ body {
   text-align: center;
   font-size: 19.2px;
   color: #8b0000;
-  margin-bottom: 1.322mm;
+  margin-bottom: 4.996px;
   font-weight: bold;
   font-family: 'Arial', sans-serif;
 }
 .greeting-sub-heading {
   font-size: 16px;
   color: #696969;
-  margin-bottom: 5.291mm;
+  margin-bottom: 19.997px;
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
@@ -72,7 +72,7 @@ body {
 .greeting-special-instructions {
   font-size: 14.4px;
   color: #333333;
-  margin-bottom: -0.79375mm;
+  margin-bottom: 3px;
   line-height: 1.5;
   text-align: center;
 }
@@ -84,12 +84,12 @@ body {
 .greeting-sender-name {
   font-size: 16px;
   color: #c71585;
-  margin-top: 2.910mm;
+  margin-top: 10.9984px;
   font-weight: bold;
   text-align: center;
 }
 .greeting-special-instructions {
-  margin-top: 1.852mm;
+  margin-top: -7.001px;
     font-size: 12px;
     color: #8b0000;
     font-weight: bold;
