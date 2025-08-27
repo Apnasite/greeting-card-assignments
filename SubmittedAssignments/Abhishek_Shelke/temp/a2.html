@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Background Text</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .greeting-recipient-name {
+            font-size: 3rem;
+            color: rgb(255, 59, 164);
+            margin-bottom: 0;
+            font-weight: bold;
+            width: 90mm;
+            border-radius: 12mm;
+            position: relative;
+            top: -27mm;
+            left: 0mm;
+            background: linear-gradient(90deg, rgba(0,0,0,0.68), rgba(255,255,255,0.68));
+            background-size: 200%;
+            animation: bgMove 3s linear infinite;
+            font-family: 'Alex Brush', cursive;
+            text-shadow: 5px 5px 0px rgb(255 255 255 / 5%);
+        }
+
+        @keyframes bgMove {
+            from {
+                background-position: 0%;
+            }
+            to {
+                background-position: 200%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="greeting-recipient-name">
+        Your Text Here
+    </div>
+</body>
+</html>
