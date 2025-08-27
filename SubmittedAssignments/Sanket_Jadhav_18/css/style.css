@@ -1,0 +1,135 @@
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 730px;
+} 
+.greeting-wrapper {
+  width: 396.8503937px; /* 396.85 pixels width */
+  height: 559.37007874px; /* 559.37 pixels height */
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.greeting-img img {
+width: 425px;
+height: 177px;
+}
+.greeting-content {
+position: relative;
+top: -15.12px; /* -4mm converted */
+text-align: center;
+flex-grow: 1;
+}
+.heart {
+position: absolute;
+font-size: 75.590px;
+top: 37.8px; /* 10mm converted */
+right: 37.8px; /* 10mm converted */
+}
+.greeting-recipient-name {
+right: -3.78px; /* -1mm converted */
+top: -15.12px; /* -4mm converted */
+text-align: center;
+font-size: 40px;
+color: #c71585;
+margin-bottom: -6px;
+font-weight: bold;
+position: relative;
+font-family: 'Alex Brush';
+}
+.greeting-heading {
+position: relative;
+right: 0px;
+top: -3.78px; /* -1mm converted */
+text-align: center;
+font-size: 19.2px;
+color: #8b0000;
+margin-bottom: 4.99px; /* 1.322mm converted */
+font-weight: bold;
+font-family: 'Arial', sans-serif;
+}
+.greeting-sub-heading {
+position: relative;
+right: 0px;
+top: 11.34px; /* 3mm converted */
+font-size: 16px;
+color: #696969;
+margin-bottom: 19.98px; /* 5.2916mm converted */
+font-family: 'Arial', sans-serif;
+text-align: center;
+}
+.greeting-pre-message {
+position: relative;
+top: 3.78px; /* 1mm converted */
+right: -3.78px; /* -1mm converted */
+}
+.greeting-message {
+position: relative;
+top: 11.34px; /* 3mm converted */
+right: -3.78px; /* -1mm converted */
+}
+.greeting-closing-message {
+position: relative;
+top: 22.68px; /* 6mm converted */
+right: -3.78px; /* -1mm converted */
+} 
+.greeting-personal-note {
+position: relative;
+top: 7.56px; /* 2mm converted */
+right: -3.78px; /* -1mm converted */
+}
+.greeting-date {
+position: relative;
+top: 11.34px; /* 3mm converted */
+right: -3.78px; /* -1mm converted */
+}
+.greeting-occasion {
+position: relative;
+top: 18.9px; /* 5mm converted */
+right: -3.78px; /* -1mm converted */
+}
+.greeting-special-instructions {
+position: relative;
+right: -3.78px; /* -1mm converted */
+top: 18.9px; /* 5mm converted */
+font-size: 14.4px;
+color: #333333;
+margin-bottom: -3px; /* -0.79375mm converted */
+line-height: 1.5;
+text-align: center;
+}
+.greeting-message {
+font-style: italic;
+color: #ff69b4;
+text-align: center;
+}
+.greeting-sender-name {
+font-size: 16px;
+color: #c71585;
+margin-top: 29.99px; /* 7.9375mm converted */
+font-weight: bold;
+text-align: center;
+}
+.greeting-special-instructions {
+margin-top: 6.99px; /* 1.852mm converted */
+font-size: 13.6px;
+color: #8b0000;
+font-weight: bold;
+text-align: center;
+}
+.greeting-wrapper::before {
+position: absolute;
+content: '';
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0.1;
+z-index: -1;
+}
